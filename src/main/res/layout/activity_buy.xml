@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1500dp">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/download" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="228dp"
+                android:layout_height="243dp"
+                android:layout_below="@+id/imageView"
+                app:srcCompat="@drawable/gg_mgy" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                app:srcCompat="@drawable/headphones" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView6"
+                app:srcCompat="@drawable/keyboard" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView8"
+                app:srcCompat="@drawable/mouse" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView9"
+                app:srcCompat="@drawable/pendrive" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView10"
+                app:srcCompat="@drawable/ram" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="86dp"
+                android:layout_toEndOf="@+id/imageView6"
+                android:text="Speakers \n Rs. 4,999"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="335dp"
+                android:text="Hard Drive \n Rs. 3,999"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="544dp"
+                android:text="Headphone  \n Rs. 1,999"
+                android:textColor="@android:color/background_dark"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="725dp"
+                android:layout_marginEnd="46dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginTop="711dp"
+                android:text="Keyboard \n Rs. 999"
+                android:textColor="@android:color/background_dark"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="951dp"
+                android:text="Mouse \n Rs. 499"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/imageView9"
+                android:layout_marginTop="36dp"
+                android:text="Pen Drive \n Rs. 399"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="951dp"
+                android:text="Mouse \n Rs. 499"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="138dp"
+                android:layout_height="140dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/textView17"
+                android:layout_marginBottom="89dp"
+                android:layout_marginStart="-34dp"
+                android:text="RAM \n Rs.3,499"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

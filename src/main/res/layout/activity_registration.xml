@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars"
+    tools:context=".RegistrationActivity">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Name"
+        android:drawableLeft="@drawable/ic_action_profile"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_action_pas"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="147dp"
+        android:drawableLeft="@drawable/ic_action_profile"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="131dp"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="384dp" />
+</RelativeLayout>

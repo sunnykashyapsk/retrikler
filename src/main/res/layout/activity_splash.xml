@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SplashActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:fontFamily="cursive"
+        android:text="R"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
+        android:textColor="@android:color/white"
+        android:textSize="120dp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="73dp"
+        android:fontFamily="cursive"
+        android:text="etrikle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
+        android:textSize="90dp"
+        android:textStyle="italic"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView13"
+        android:fontFamily="cursive"
+        android:text="R"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large"
+        android:textColor="@android:color/white"
+        android:textSize="120dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+</RelativeLayout>
